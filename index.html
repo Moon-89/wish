@@ -12,15 +12,30 @@
 </head>
 <body>
 
-<audio class="song" loop autoplay>
-        <source src="./music/Mere.mp3">
-        </source>
-    </audio>
-
     <!-- //floating background particles -->
 <div class="particles" id="particles"></div>
+
+<div class="audio-wrapper">
+  <h2>🎵 Welcome! 🌸</h2>
+  <button onclick="document.getElementById('player').play()" class="play-btn">
+    🌍 Play Song ❤️
+  </button>
+  <audio id="player">
+    <source src="music/Mere.mp3" type="audio/mpeg">
+  </audio>
+</div>
     <!-- // Hero Section -->
 <section class="hero" id="hero">
+ <div class="audio-wrapper">
+  <h2>🎵 Welcome! 🌸</h2>
+  <button onclick="document.getElementById('player').play()" class="play-btn">
+    🌍 Play Song ❤️
+  </button>
+  <audio id="player">
+    <source src="music/Mere.mp3" type="audio/mpeg">
+  </audio>
+</div>
+
 <div class="hero-content">
 <h1 class="typewriter" id="typewriter">Happy birthday, Miyan g💕</h1>
 <p class="subtitle fade-in">Today is all about celebrating you and the joy bring to my life</p>
@@ -31,11 +46,13 @@
     <div class="heart">💝</div>
     <div class="heart">💘</div>
 </div>
+
 <button id="startBtn" class="cta-button" onClick="scrollToSection()">Start the celebration🎉 </button>
 </div>
 <div class="scroll-indicator">
     <div class="scroll-arrow"></div>
 </div>
+
 </section>
 
 <!-- //photo Gallery Section -->
