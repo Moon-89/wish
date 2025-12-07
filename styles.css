@@ -484,10 +484,10 @@ margin: 0;
 
 /* Small mobile */
 @media (max-width: 480px) {
-    .typewriter { font-size: 1.5rem; white-space: normal; width: auto;}
+    .typewriter { font-size: 1.5rem; white-space: normal; width: auto;font-family: 'Dancing Script', cursive ;}
   .hero-content { padding: 10px 5px; }
   .cta-button { padding: 10px 20px; font-size: 0.9rem; }
-  .section-title { font-size: 2rem; margin-bottom: 30px; }
+  .section-title { font-size: 2rem; margin-bottom: 30px;font-family: 'Dancing Script', cursive; }
   .audio-wrapper { width: 60%; padding: 15px; }
     .message-card {
     padding: 20px 15px;
@@ -495,6 +495,7 @@ margin: 0;
   }
   .message-title {
     font-size: 1.6rem;
+    font-family: 'Dancing Script', cursive;
   }
   .message-text {
     font-size: 1rem;
@@ -502,5 +503,7 @@ margin: 0;
   }
   .message-signature {
     font-size: 1.1rem;
+    font-family: 'Dancing Script', cursive;
   }
+  
 }
